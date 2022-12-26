@@ -63,3 +63,26 @@ body{
   margin-top: 12px;
   box-shadow: none;
 }
+
+button:active{
+  margin-top: 12px;
+  box-shadow: none;
+}
+
+button{
+  cursor: pointer;
+  user-select: none;
+  background: #f44336;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 0 black;
+}
+
+p {
+  background: skyblue;
+  color: blue;
+  user-select: none;
+}
+
+
