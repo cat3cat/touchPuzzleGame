@@ -27,7 +27,7 @@
         if(this.game.getCurrentNum() === this.game.getLevel() ** 2){
           clearTimeout(this.game.getTimeoutId());
           const text = getElementById('text');
-          text.textContent = "おめでとう！！";
+          // this.text.textContent = "おめでとう！！";
         }
       }
     }
@@ -124,13 +124,17 @@
       getLevel(){
         return this.level;
       }
+
+      // getText(){
+      //   return this.text;
+      // }
   }
 
   new Game(4);
 
   const reset = getElementById('reset');
   reset.addEventListener('click',() =>{
-    start();
+    setup();
   });
   
 }
