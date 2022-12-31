@@ -130,6 +130,7 @@
       // }
   }
 
+  
   new Game(4);
 
   const reset = getElementById('reset');
